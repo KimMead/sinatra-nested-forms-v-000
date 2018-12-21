@@ -10,7 +10,10 @@ class Ship
     @@all << self
   end
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
+  end
+
+  def self.clear
   end 
 end
