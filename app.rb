@@ -17,9 +17,9 @@ module FormsLab
       end
 
       @pirate = Pirate.new(params["pirate"]["name"], params["pirate"]["height"], params["pirate"]["weight"])
-      @ship = Ship.all 
+      @ship = Ship.all
       erb :'pirate/show'
-    end 
+    end
 
     # code other routes/actions here
 
